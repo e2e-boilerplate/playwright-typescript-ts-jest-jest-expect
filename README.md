@@ -1,12 +1,12 @@
-# Playwright (TypeScript, Jest and Assert)
+# Playwright (TypeScript, Jest and Expect)
 
-[![GitHub Actions status | e2e-boilerplates/playwright-typescript-jest-assert](https://github.com/e2e-boilerplates/playwright-typescript-jest-assert/workflows/playwright-typescript-jest-assert/badge.svg)](https://github.com/e2e-boilerplates/playwright-typescript-jest-assert/actions?workflow=playwright-typescript-jest-assert)
+[![GitHub Actions status | e2e-boilerplates/playwright-typescript-jest-expect](https://github.com/e2e-boilerplates/playwright-typescript-jest-expect/workflows/playwright-typescript-jest-expect/badge.svg)](https://github.com/e2e-boilerplates/playwright-typescript-jest-expect/actions?workflow=playwright-typescript-jest-expect)
 
-Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Assert.
+Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Expect.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/playwright-typescript-jest-assert.git
-    cd playwright-typescript-jest-assert
+    git clone git@github.com:e2e-boilerplates/playwright-typescript-jest-expect.git
+    cd playwright-typescript-jest-expect
     npm install
     npm run test
