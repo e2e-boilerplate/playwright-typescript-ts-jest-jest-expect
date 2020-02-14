@@ -1,4 +1,4 @@
-name: playwright-typescript-jest-assert
+name: playwright-typescript-jest-expect
 
 on:
   push:
