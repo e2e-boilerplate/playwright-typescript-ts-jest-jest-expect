@@ -1,5 +1,5 @@
 {
-  "name": "playwright-es6modules-typescript-jest",
+  "name": "playwright-typescript-jest-expect",
   "version": "1.0.0",
   "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Expect.",
   "scripts": {
