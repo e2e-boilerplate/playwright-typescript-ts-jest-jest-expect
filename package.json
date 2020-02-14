@@ -1,0 +1,46 @@
+{
+  "name": "playwright-es6modules-typescript-jest",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end test automation boilerplate, using TypeScript, Jest and Expect.",
+  "scripts": {
+    "pretty": "npx prettier --no-config './__tests__/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './__tests__/*.ts'",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "jest",
+    "boilerplate",
+    "example",
+    "e2e"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "0.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "25.1.2",
+    "@types/node": "12.12.27",
+    "husky": "4.2.3",
+    "jest": "25.1.0",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "ts-jest": "25.2.0",
+    "tslint": "5.20.1",
+    "tslint-plugin-prettier": "2.1.0",
+    "typescript": "3.7.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,css,json,md}": [
+      "prettier --write"
+    ]
+  }
+}
