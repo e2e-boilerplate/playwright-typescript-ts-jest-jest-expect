@@ -1,4 +1,3 @@
-import assert from "assert";
 import { chromium } from "playwright";
 
 let page: any;
@@ -32,7 +31,7 @@ describe("Sandbox", () => {
       (el: { textContent: any }) => el.textContent
     );
 
-    assert.strictEqual(await page.title(), "Sandbox");
-    assert.strictEqual(title, "Sandbox");
+    expect(await page.title()).toEqual("Sandbox");
+    expect(title).toEqual("Sandbox");
   });
 });
