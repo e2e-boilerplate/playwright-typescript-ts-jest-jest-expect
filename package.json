@@ -16,7 +16,7 @@
     "@types/jasmine": "3.5.9",
     "@types/jasminewd2": "2.0.8",
     "@types/mocha": "7.0.2",
-    "@types/node": "13.9.2",
+    "@types/node": "13.9.3",
     "@types/puppeteer": "2.0.1",
     "@types/selenium-webdriver": "4.0.9",
     "husky": "4.2.3",
